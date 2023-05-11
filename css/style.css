@@ -117,7 +117,7 @@ a {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .logo {
         width: 40px;
     }
@@ -196,7 +196,7 @@ a {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .checkbtn {
         font-size: 1px;
     }
@@ -529,7 +529,7 @@ li a {
     }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 420px) {
     .presentacion {
         height: 155px;
     }
@@ -650,7 +650,7 @@ li a {
     }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 420px) {
     .sobreMi__nombre {
         font-size: 0.8rem;
         padding: 0rem 1rem 0rem 1rem;
@@ -765,7 +765,7 @@ li a {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .skillsMi__titulo {
         font-size: 1.5rem;
         padding-top: 20px;
@@ -906,7 +906,7 @@ li a {
     }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 420px) {
     .hobbiesMi__nombre {
         font-size: 0.35rem;
     }
@@ -1096,7 +1096,7 @@ li a {
     }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 420px) {
     .formacionMi__imagen {
         width: 75px;
     }
@@ -1293,7 +1293,7 @@ li a {
     }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 420px) {
     .proyectos_nombre {
         display: none;
     }
@@ -1522,7 +1522,7 @@ li a {
     }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 420px) {
     .button {
         font-size: 1rem;
         max-width: 20rem;
