@@ -11,6 +11,7 @@
     --Morado: #8A2BE2;
 }
 
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -528,6 +529,35 @@ li a {
     }
 }
 
+@media (max-width: 250px) {
+    .presentacion {
+        height: 155px;
+    }
+
+    .imagen {
+        height: 155px;
+    }
+
+    .contenedor {
+        font-size: 7px;
+        margin-top: -6rem;
+    }
+
+    .presentacion__mio>.soy {
+        font-size: 8px;
+    }
+
+    .presentacion__mio>.mia {
+        margin: 0 0 0 5px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .links__sociales {
+        height: 20px;
+    }
+}
+
 /* Sobre Mi */
 .sobreMi {
     background: #000000;
@@ -617,6 +647,18 @@ li a {
 
     .sobreMi__parrafo {
         font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 250px) {
+    .sobreMi__nombre {
+        font-size: 0.8rem;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .sobreMi__parrafo {
+        font-size: 0.7rem;
+        padding: 0rem 1rem 0rem 1rem;
     }
 }
 
@@ -864,6 +906,12 @@ li a {
     }
 }
 
+@media (max-width: 250px) {
+    .hobbiesMi__nombre {
+        font-size: 0.35rem;
+    }
+}
+
 /* Formacion */
 .formacionMi {
     background: #000000;
@@ -1045,6 +1093,17 @@ li a {
     .formacionMi__imagen_oracle {
         width: 100px;
         height: 100px;
+    }
+}
+
+@media (max-width: 250px) {
+    .formacionMi__imagen {
+        width: 75px;
+    }
+
+    .formacionMi__imagen_oracle {
+        width: 80px;
+        height: 90px;
     }
 }
 
@@ -1234,6 +1293,16 @@ li a {
     }
 }
 
+@media (max-width: 250px) {
+    .proyectos_nombre {
+        display: none;
+    }
+
+    .proyectos__enlace {
+        padding-right: 0.2rem;
+    }
+}
+
 /* Contacto */
 .contactoMi {
     background: #000000;
@@ -1406,7 +1475,6 @@ li a {
     text-align: center;
     font-size: 2rem;
     font-family: var(--Parrafos);
-
 }
 
 .button:hover {
@@ -1451,6 +1519,13 @@ li a {
 
     .contacto_formulario {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 250px) {
+    .button {
+        font-size: 1rem;
+        max-width: 20rem;
     }
 }
 
