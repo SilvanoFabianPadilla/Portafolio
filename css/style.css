@@ -119,11 +119,11 @@ a {
 
 @media (max-width: 420px) {
     .logo {
-        width: 40px;
+        width: 60px;
     }
 
     .menu__titulo {
-        font-size: 25px;
+        font-size: 40px;
     }
 }
 
@@ -202,7 +202,7 @@ a {
     }
 
     .navegacion__toda {
-        height: 55vh;
+        height: 30vh;
     }
 }
 
@@ -531,30 +531,30 @@ li a {
 
 @media (max-width: 420px) {
     .presentacion {
-        height: 155px;
+        height: 200px;
     }
 
     .imagen {
-        height: 155px;
+        height: 200px;
     }
 
     .contenedor {
-        font-size: 7px;
-        margin-top: -6rem;
+        font-size: 12.5px;
+        margin-top: -4rem;
     }
 
     .presentacion__mio>.soy {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .presentacion__mio>.mia {
-        margin: 0 0 0 5px;
-        width: 70px;
-        height: 70px;
+        margin: 0 0 0 20px;
+        width: 100px;
+        height: 100px;
     }
 
     .links__sociales {
-        height: 20px;
+        height: 30px;
     }
 }
 
@@ -766,17 +766,12 @@ li a {
 }
 
 @media (max-width: 420px) {
-    .skillsMi__titulo {
-        font-size: 1.5rem;
-        padding-top: 20px;
-    }
-
     .skillsMi__leguajes {
         height: 4rem;
     }
 
     .skillsMi__nombre {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .skillsMi__imagen {
@@ -908,7 +903,7 @@ li a {
 
 @media (max-width: 420px) {
     .hobbiesMi__nombre {
-        font-size: 0.35rem;
+        font-size: 0.6rem;
     }
 }
 
@@ -1097,6 +1092,10 @@ li a {
 }
 
 @media (max-width: 420px) {
+    .formacionMi__formacion {
+        height: 16rem;
+    }
+
     .formacionMi__imagen {
         width: 75px;
     }
@@ -1294,8 +1293,17 @@ li a {
 }
 
 @media (max-width: 420px) {
+    .proyectosMi__proyectos {
+        height: 15rem;
+    }
+
+    .proyectosMi__nombre {
+        font-size: 0.9rem;
+    }
+
     .proyectos_nombre {
-        display: none;
+        font-size: 0.8rem;
+        margin: 0;
     }
 
     .proyectos__enlace {
@@ -1523,8 +1531,12 @@ li a {
 }
 
 @media (max-width: 420px) {
+    .contactoMi__bloque {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
     .button {
-        font-size: 1rem;
+        font-size: 2rem;
         max-width: 20rem;
     }
 }
