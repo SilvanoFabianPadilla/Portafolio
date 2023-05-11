@@ -117,13 +117,13 @@ a {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 360px) {
     .logo {
         width: 60px;
     }
 
     .menu__titulo {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
@@ -196,7 +196,7 @@ a {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 360px) {
     .checkbtn {
         font-size: 1px;
     }
@@ -529,7 +529,7 @@ li a {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 360px) {
     .presentacion {
         height: 200px;
     }
@@ -544,7 +544,7 @@ li a {
     }
 
     .presentacion__mio>.soy {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .presentacion__mio>.mia {
@@ -771,7 +771,7 @@ li a {
     }
 
     .skillsMi__nombre {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .skillsMi__imagen {
@@ -903,7 +903,7 @@ li a {
 
 @media (max-width: 420px) {
     .hobbiesMi__nombre {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 }
 
@@ -1292,7 +1292,7 @@ li a {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 360px) {
     .proyectosMi__proyectos {
         height: 15rem;
     }
@@ -1302,7 +1302,7 @@ li a {
     }
 
     .proyectos_nombre {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin: 0;
     }
 
