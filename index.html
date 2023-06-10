@@ -1,285 +1,478 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fabián Padilla</title>
-    <link rel="icon" href="img/f.png">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/f.png" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Letras -->
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="https://app.embed.im/snow.js"></script>
+  </head>
 
-<body>
+  <body>
     <!-- Menu -->
     <div class="todo">
-        <section class="menu">
-            <!-- Navegacion -->
-            <nav class="nav">
-                <input type="checkbox" id="check" />
-                <label for="check" class="checkbtn">
-                    <img src="img/menu.png" alt="Navegacion" height="60" />
-                </label>
-                <ul class="navegacion__toda ">
-                    <li><a class="navegacion sobre__mi" href="#SobreMi" data-title="Sobre mi"><span>
-                                <span>Sobre mi</span>
-                            </span></a></li>
-                    <li><a class="navegacion skills" href="#SkillsMi" data-title="Skills"><span>
-                                <span>Skills</span>
-                            </span></a></li>
-                    <li><a class="navegacion hobbies" href="#HobbiesMi" data-title="Hobbies"><span>
-                                <span>Hobbies</span>
-                            </span></a></li>
-                    <li><a class="navegacion formacion" href="#FormacionMi" data-title="Formación"><span>
-                                <span>Formación</span>
-                            </span></a></li>
-                    <li><a class="navegacion proyectos" href="#ProyectosMi" data-title="Proyectos"><span>
-                                <span>Proyectos</span>
-                            </span></a></li>
-                    <li><a class="navegacion contacto" href="#ContactoMi" data-title="Contacto"><span>
-                                <span>Contacto</span>
-                            </span></a></li>
-                </ul>
-            </nav>
-        </section>
-        <header class="menu__header">
-            <img class="logo" src="img/f.png" alt="Logo">
-            <h3 class="menu__titulo"> <a href="#" class="menu__titulo__letras">Fabián Padilla</a></h3>
-        </header>
+      <section class="menu">
+        <!-- Navegacion -->
+        <nav class="nav">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <img src="img/menu.png" alt="Navegacion" height="60" />
+          </label>
+          <ul class="navegacion__toda">
+            <li>
+              <a
+                class="navegacion sobre__mi"
+                href="#SobreMi"
+                data-title="Sobre mi"
+                ><span>
+                  <span>Sobre mi</span>
+                </span></a
+              >
+            </li>
+            <li>
+              <a class="navegacion skills" href="#SkillsMi" data-title="Skills"
+                ><span>
+                  <span>Skills</span>
+                </span></a
+              >
+            </li>
+            <li>
+              <a
+                class="navegacion hobbies"
+                href="#HobbiesMi"
+                data-title="Hobbies"
+                ><span>
+                  <span>Hobbies</span>
+                </span></a
+              >
+            </li>
+            <li>
+              <a
+                class="navegacion formacion"
+                href="#FormacionMi"
+                data-title="Formación"
+                ><span>
+                  <span>Formación</span>
+                </span></a
+              >
+            </li>
+            <li>
+              <a
+                class="navegacion proyectos"
+                href="#ProyectosMi"
+                data-title="Proyectos"
+                ><span>
+                  <span>Proyectos</span>
+                </span></a
+              >
+            </li>
+            <li>
+              <a
+                class="navegacion contacto"
+                href="#ContactoMi"
+                data-title="Contacto"
+                ><span>
+                  <span>Contacto</span>
+                </span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <header class="menu__header">
+        <img class="logo" src="img/f.png" alt="Logo" />
+        <h3 class="menu__titulo">
+          <a href="#" class="menu__titulo__letras">Fabián Padilla</a>
+        </h3>
+      </header>
 
-        <!-- Presentacion -->
-        <section class="presentacion">
-            <img class="imagen" src="img/fondo.jpg" alt="Fondo">
-            <div class="presentacion__div">
-                <div class="contenedor">
-                    <ul class="contenedor__ul">
-                        <li>Hola, mi nombre es - </li>
-                        <li>Hello, my name is - </li>
-                        <li>Oi, meu nome é - </li>
-                        <li>Salut, je m'appelle - </li>
-                    </ul>
-                    <p class="contenedor__p"> Fabián Padilla - Desarrollador FrontEnd.</p>
-                </div>
-                <!-- Presentacion mia -->
-                <div class="presentacion__mio">
-                    <p class="soy">Soy de Mexico, Mexico. Tengo 22 años y actualmente me encuentro en el programa Alura
-                        Latam Oracle Next Education y en la carrera de Ingeniería en Computación en la Universidad
-                        “Facultad de Estudios Superiores Aragón UNAM”.</p>
-                    <img class="mia" src="img/mia.jpg" alt="Perfil">
-                </div>
-                <div class="links">
-                    <a href="https://github.com/SilvanoFabianPadilla" target="_blank"><img class="links__sociales"
-                            src="img/github.png" alt="Github"></a>
-                    <a href="https://www.linkedin.com/in/silvano-fabi%C3%A1n-padilla-lozano-414747253/" target="_blank">
-                        <img class="links__sociales" src="img/linkedin.png" alt="Linkeding">
-                    </a>
-                    <a href="https://www.instagram.com/fabiruchis2121/" target="_blank"> <img class="links__sociales"
-                            src="img/instagram.png" alt="Instagram"></a>
-                    <a href="img/Segunda actividad extra.pdf" download="Curriculum">
-                        <img class="links__sociales" src="img/curriculum.png" alt="Curriculum">
-                    </a>
-                </div>
+      <!-- Presentacion -->
+      <section class="presentacion">
+        <img class="imagen" src="img/fondo.jpg" alt="Fondo" />
+        <div class="presentacion__div">
+          <div class="contenedor">
+            <ul class="contenedor__ul">
+              <li>Hola, mi nombre es -</li>
+              <li>Hello, my name is -</li>
+              <li>Oi, meu nome é -</li>
+              <li>Salut, je m'appelle -</li>
+            </ul>
+            <p class="contenedor__p">
+              Fabián Padilla - Desarrollador FrontEnd.
+            </p>
+          </div>
+          <!-- Presentacion mia -->
+          <div class="presentacion__mio">
+            <p class="soy">
+              Soy de Mexico, Mexico. Tengo 22 años y actualmente me encuentro en
+              el programa Alura Latam Oracle Next Education y en la carrera de
+              Ingeniería en Computación en la Universidad “Facultad de Estudios
+              Superiores Aragón UNAM”.
+            </p>
+            <img class="mia" src="img/mia.jpg" alt="Perfil" />
+          </div>
+          <div class="links">
+            <a href="https://github.com/SilvanoFabianPadilla" target="_blank"
+              ><img class="links__sociales" src="img/github.png" alt="Github"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/silvano-fabi%C3%A1n-padilla-lozano-414747253/"
+              target="_blank"
+            >
+              <img
+                class="links__sociales"
+                src="img/linkedin.png"
+                alt="Linkeding"
+              />
+            </a>
+            <a href="https://www.instagram.com/fabiruchis2121/" target="_blank">
+              <img
+                class="links__sociales"
+                src="img/instagram.png"
+                alt="Instagram"
+            /></a>
+            <a href="img/Segunda actividad extra.pdf" download="Curriculum">
+              <img
+                class="links__sociales"
+                src="img/curriculum.png"
+                alt="Curriculum"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre mi -->
+      <a name="SobreMi"></a>
+      <section class="sobreMi">
+        <h1 class="sobreMi__titulo">Sobre mi</h1>
+        <h2 class="sobreMi__nombre">
+          Soy Fabián Padilla y soy un Desarrollador Front-End:
+        </h2>
+        <p class="sobreMi__parrafo">
+          Soy un estudiante de la carrera de Ingeniería en Computación en la
+          Universidad Autónoma de Mexico. Desde pequeño me ha interesado el
+          mundo de la tecnología y todo lo relacionado a ella, con el paso de
+          tiempo mi interés se ha inclinado hacia el desarrollo web.
+        </p>
+        <p class="sobreMi__parrafo">
+          Tengo una gran pasión por crear aplicaciones interactivas y atractivas
+          además de que, me gusta estar actualizado en cuanto a las últimas
+          tendencias en el desarrollo web para así mantenerme constante
+          preparación.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <a name="SkillsMi"></a>
+      <section class="skillsMi">
+        <h1 class="skillsMi__titulo">Skill</h1>
+        <div class="skillsMi__bloque">
+          <div class="skillsMi__leguajes">
+            <p class="skillsMi__nombre">html5</p>
+            <img class="skillsMi__imagen" src="img/html.png" alt="HTML5" />
+          </div>
+          <div class="skillsMi__leguajes">
+            <p class="skillsMi__nombre">css</p>
+            <img class="skillsMi__imagen" src="img/css.png" alt="css" />
+          </div>
+          <div class="skillsMi__leguajes">
+            <p class="skillsMi__nombre">javascript</p>
+            <img
+              class="skillsMi__imagen"
+              src="img/javascript.png"
+              alt="javascript"
+            />
+          </div>
+          <div class="skillsMi__leguajes">
+            <p class="skillsMi__nombre">python</p>
+            <img class="skillsMi__imagen" src="img/python.png" alt="python" />
+          </div>
+          <div class="skillsMi__leguajes">
+            <p class="skillsMi__nombre">github</p>
+            <img
+              class="skillsMi__imagen"
+              src="img/githubDos.png"
+              alt="github"
+            />
+          </div>
+          <div class="skillsMi__leguajes">
+            <p class="skillsMi__nombre">git</p>
+            <img class="skillsMi__imagen" src="img/git.png" alt="git" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Hobbies -->
+      <a name="HobbiesMi"></a>
+      <section class="hobbiesMi">
+        <h1 class="hobbiesMi__titulo">Hobbies</h1>
+        <div class="hobbiesMi__bloque">
+          <div class="hobbiesMi__hobbies">
+            <p class="hobbiesMi__nombre">Videojuegos</p>
+            <img class="hobbiesMi__imagen" src="img/xbox.png" alt="XBOX" />
+          </div>
+          <div class="hobbiesMi__hobbies">
+            <p class="hobbiesMi__nombre">Programar</p>
+            <img
+              class="hobbiesMi__imagen"
+              src="img/desarrollador.png"
+              alt="Programar"
+            />
+          </div>
+          <div class="hobbiesMi__hobbies">
+            <p class="hobbiesMi__nombre">Futbol</p>
+            <img class="hobbiesMi__imagen" src="img/futbol.png" alt="Futbol" />
+          </div>
+          <div class="hobbiesMi__hobbies">
+            <p class="hobbiesMi__nombre">Cocinar</p>
+            <img
+              class="hobbiesMi__imagen"
+              src="img/cocinar.png"
+              alt="Cocinar"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Formacion -->
+      <a name="FormacionMi"></a>
+      <section class="formacionMi">
+        <h1 class="formacionMi__titulo">Formación</h1>
+        <div class="formacionMi__bloque">
+          <div class="formacionMi__formacion">
+            <img class="formacionMi__imagen" src="img/unam.png" alt="UNAM" />
+            <p class="formacionMi__nombre">
+              Universidad Nacional Autónoma de México
+            </p>
+            <p class="formacionMi__carrera">Ingeniero en computación</p>
+            <p class="formacionMi__año">Agosto 2020 - Diciembre 2023</p>
+          </div>
+          <div class="formacionMi__formacion">
+            <img
+              class="formacionMi__imagen_oracle"
+              src="img/oracle.png"
+              alt="ORACLE"
+            />
+            <p class="formacionMi__nombre">Oracle Next Education</p>
+            <p class="formacionMi__carrera">Desarrollador Front-End</p>
+            <p class="formacionMi__año">Noviembre 2022 - Junio 2023</p>
+          </div>
+          <div class="formacionMi__formacion">
+            <img
+              class="formacionMi__imagen_oracle"
+              src="img/udemy.png"
+              alt="UDEMY"
+            />
+            <p class="formacionMi__nombre">
+              Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL
+            </p>
+            <p class="formacionMi__carrera">Desarrollador Front-End</p>
+            <p class="formacionMi__año">Enero 2021 - Enero 2023</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <a name="ProyectosMi"></a>
+      <section class="proyectosMi">
+        <h1 class="proyectosMi__titulo">Proyectos</h1>
+        <div class="proyectosMi__bloque">
+          <div class="proyectosMi__proyectos">
+            <p class="proyectosMi__nombre">Encriptador</p>
+            <img
+              class="proyectosMi__imagen"
+              src="img/encriptador.png"
+              alt="Encriptador"
+            />
+            <p class="proyectosMi__tipo">
+              Encriptador de texto desarrollado con JavaScript, HTML y CSS.
+            </p>
+            <div class="proyectos__bloque">
+              <p class="proyectos_nombre">Github</p>
+              <a
+                href="https://github.com/SilvanoFabianPadilla/Encriptador"
+                target="_blank"
+              >
+                <img
+                  src="img/github.png"
+                  alt="Github"
+                  class="proyectos__enlace"
+                />
+              </a>
+              <p class="proyectos_nombre">Demo</p>
+              <a
+                href="https://silvanofabianpadilla.github.io/Encriptador/"
+                target="_blank"
+              >
+                <img
+                  src="img/enlazar.png"
+                  alt="Pagina"
+                  class="proyectos__enlace"
+                />
+              </a>
             </div>
-        </section>
-
-        <!-- Sobre mi -->
-        <a name="SobreMi"></a>
-        <section class="sobreMi">
-            <h1 class="sobreMi__titulo">Sobre mi</h1>
-            <h2 class="sobreMi__nombre">Soy Fabián Padilla y soy un Desarrollador Front-End:</h2>
-            <p class="sobreMi__parrafo">Soy un estudiante de la carrera de Ingeniería en Computación en la Universidad
-                Autónoma de Mexico. Desde pequeño me ha interesado el mundo de la tecnología y todo lo relacionado a
-                ella, con el paso de tiempo mi interés se ha inclinado hacia el desarrollo web.</p>
-            <p class="sobreMi__parrafo">Tengo una gran pasión por crear aplicaciones interactivas y atractivas además
-                de que, me gusta estar actualizado en cuanto a las últimas tendencias en el
-                desarrollo web para así mantenerme constante preparación. </p>
-        </section>
-
-        <!-- Skills -->
-        <a name="SkillsMi"></a>
-        <section class="skillsMi">
-            <h1 class="skillsMi__titulo">Skill</h1>
-            <div class="skillsMi__bloque">
-                <div class="skillsMi__leguajes">
-                    <p class="skillsMi__nombre">html5</p>
-                    <img class="skillsMi__imagen" src="img/html.png" alt="HTML5">
-                </div>
-                <div class="skillsMi__leguajes">
-                    <p class="skillsMi__nombre">css</p>
-                    <img class="skillsMi__imagen" src="img/css.png" alt="css">
-                </div>
-                <div class="skillsMi__leguajes">
-                    <p class="skillsMi__nombre">javascript</p>
-                    <img class="skillsMi__imagen" src="img/javascript.png" alt="javascript">
-                </div>
-                <div class="skillsMi__leguajes">
-                    <p class="skillsMi__nombre">python</p>
-                    <img class="skillsMi__imagen" src="img/python.png" alt="python">
-                </div>
-                <div class="skillsMi__leguajes">
-                    <p class="skillsMi__nombre">github</p>
-                    <img class="skillsMi__imagen" src="img/githubDos.png" alt="github">
-                </div>
-                <div class="skillsMi__leguajes">
-                    <p class="skillsMi__nombre">git</p>
-                    <img class="skillsMi__imagen" src="img/git.png" alt="git">
-                </div>
+          </div>
+          <div class="proyectosMi__proyectos">
+            <p class="proyectosMi__nombre">Barbería Capitán</p>
+            <img
+              class="proyectosMi__imagen"
+              src="img/Barberia.png"
+              alt="Barberia"
+            />
+            <p class="proyectosMi__tipo">
+              Página de una Barberia con productos y contactos.
+            </p>
+            <div class="proyectos__bloque">
+              <p class="proyectos_nombre">Github</p>
+              <a
+                href="https://github.com/SilvanoFabianPadilla/Barberia-Capitan"
+                target="_blank"
+              >
+                <img
+                  src="img/github.png"
+                  alt="Github"
+                  class="proyectos__enlace"
+                />
+              </a>
+              <p class="proyectos_nombre">Demo</p>
+              <a
+                href="https://silvanofabianpadilla.github.io/Barberia-Capitan/"
+                target="_blank"
+              >
+                <img
+                  src="img/enlazar.png"
+                  alt="Pagina"
+                  class="proyectos__enlace"
+                />
+              </a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Hobbies -->
-        <a name="HobbiesMi"></a>
-        <section class="hobbiesMi">
-            <h1 class="hobbiesMi__titulo">Hobbies</h1>
-            <div class="hobbiesMi__bloque">
-                <div class="hobbiesMi__hobbies">
-                    <p class="hobbiesMi__nombre">Videojuegos</p>
-                    <img class="hobbiesMi__imagen" src="img/xbox.png" alt="XBOX">
-                </div>
-                <div class="hobbiesMi__hobbies">
-                    <p class="hobbiesMi__nombre">Programar</p>
-                    <img class="hobbiesMi__imagen" src="img/desarrollador.png" alt="Programar">
-                </div>
-                <div class="hobbiesMi__hobbies">
-                    <p class="hobbiesMi__nombre">Futbol</p>
-                    <img class="hobbiesMi__imagen" src="img/futbol.png" alt="Futbol">
-                </div>
-                <div class="hobbiesMi__hobbies">
-                    <p class="hobbiesMi__nombre">Cocinar</p>
-                    <img class="hobbiesMi__imagen" src="img/cocinar.png" alt="Cocinar">
-                </div>
-            </div>
-        </section>
+      <!-- Contacto -->
+      <a name="ContactoMi"></a>
+      <section class="contactoMi">
+        <h1 class="contactoMi__titulo">Contacto</h1>
+        <div class="contactoMi__bloque">
+          <div>
+            <p class="contacto_contacto">¿Quieres contactarme?</p>
+            <p class="contacto_formulario">
+              Complete el siguiente formulario y me pondré en contacto con usted
+              lo más rápido posible
+            </p>
+          </div>
+          <form
+            action="https://formsubmit.co/fabian.sfpl@gmail.com"
+            method="POST"
+          >
+            <fieldset>
+              <div class="input-container">
+                <input
+                  name="name"
+                  id="name"
+                  class="input"
+                  type="text"
+                  placeholder="Nombre"
+                  required
+                  data-tipo="nombre"
+                  pattern="^(?!.*[0-9])(?!.*[!@#$%^&*_=+-?¿]).{5,50}$"
+                />
+                <label class="input-label" for="name">Nombre</label>
+                <span class="input-message-error"
+                  >⚠ Este campo no es valido</span
+                >
+              </div>
+              <div class="input-container">
+                <input
+                  name="email"
+                  id="email"
+                  class="input"
+                  type="email"
+                  placeholder="Correo Electrónico"
+                  required
+                  data-tipo="email"
+                />
+                <label class="input-label" for="email"
+                  >Correo Electrónico</label
+                >
+                <span class="input-message-error"
+                  >⚠ Este campo no es valido</span
+                >
+              </div>
+              <div class="input-container">
+                <input
+                  name="asunto"
+                  id="asunto"
+                  class="input"
+                  type="text"
+                  placeholder="Asunto"
+                  required
+                  data-tipo="asunto"
+                  pattern=".{5,50}$"
+                />
+                <label class="input-label" for="asunto">Asunto</label>
+                <span class="input-message-error"
+                  >⚠ Este campo no es valido</span
+                >
+              </div>
+              <div class="input-container">
+                <input
+                  name="mensaje"
+                  id="mensaje"
+                  class="inputMensaje"
+                  type="text"
+                  placeholder="Mensaje"
+                  required
+                  data-tipo="mensaje"
+                  pattern=".{5,300}$"
+                />
+                <label class="input-label" for="mensaje">Mensaje</label>
+                <span class="input-message-error"
+                  >⚠ Este campo no es valido</span
+                >
+              </div>
+              <button class="button" type="submit" value="Enviar">
+                Enviar
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
 
-        <!-- Formacion -->
-        <a name="FormacionMi"></a>
-        <section class="formacionMi">
-            <h1 class="formacionMi__titulo">Formación</h1>
-            <div class="formacionMi__bloque">
-                <div class="formacionMi__formacion">
-                    <img class="formacionMi__imagen" src="img/unam.png" alt="UNAM">
-                    <p class="formacionMi__nombre">Universidad Nacional Autónoma de México</p>
-                    <p class="formacionMi__carrera">Ingeniero en computación</p>
-                    <p class="formacionMi__año">Agosto 2020 - Diciembre 2023</p>
-                </div>
-                <div class="formacionMi__formacion">
-                    <img class="formacionMi__imagen_oracle" src="img/oracle.png" alt="ORACLE">
-                    <p class="formacionMi__nombre">Oracle Next Education</p>
-                    <p class="formacionMi__carrera">Desarrollador Front-End</p>
-                    <p class="formacionMi__año">Noviembre 2022 - Junio 2023</p>
-                </div>
-                <div class="formacionMi__formacion">
-                    <img class="formacionMi__imagen_oracle" src="img/udemy.png" alt="UDEMY">
-                    <p class="formacionMi__nombre">Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL</p>
-                    <p class="formacionMi__carrera">Desarrollador Front-End</p>
-                    <p class="formacionMi__año">Enero 2021 - Enero 2023</p>
-                </div>
-            </div>
-        </section>
+      <!-- copyright -->
+      <section class="copyright">
+        <footer>
+          <a href="https://github.com/SilvanoFabianPadilla" target="_blank"
+            ><img src="img/github.png" alt="Logo" class="social"
+          /></a>
+          <a href="https://www.instagram.com/fabiruchis2121/" target="_blank"
+            ><img src="img/instagram.png" alt="Logo" class="social"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/silvano-fabi%C3%A1n-padilla-lozano-414747253/"
+            target="_blank"
+            ><img src="img/linkedin.png" alt="Logo" class="social"
+          /></a>
 
-        <!-- Proyectos -->
-        <a name="ProyectosMi"></a>
-        <section class="proyectosMi">
-            <h1 class="proyectosMi__titulo">Proyectos</h1>
-            <div class="proyectosMi__bloque">
-                <div class="proyectosMi__proyectos">
-                    <p class="proyectosMi__nombre">Encriptador</p>
-                    <img class="proyectosMi__imagen" src="img/encriptador.png" alt="Encriptador">
-                    <p class="proyectosMi__tipo">Encriptador de texto desarrollado con JavaScript, HTML y CSS.</p>
-                    <div class="proyectos__bloque">
-                        <p class="proyectos_nombre">Github</p>
-                        <a href="https://github.com/SilvanoFabianPadilla/Encriptador" target="_blank">
-                            <img src="img/github.png" alt="Github" class="proyectos__enlace">
-                        </a>
-                        <p class="proyectos_nombre">Demo</p>
-                        <a href="https://silvanofabianpadilla.github.io/Encriptador/" target="_blank">
-                            <img src="img/enlazar.png" alt="Pagina" class="proyectos__enlace">
-                        </a>
-                    </div>
-                </div>
-                <div class="proyectosMi__proyectos">
-                    <p class="proyectosMi__nombre">Barbería Capitán</p>
-                    <img class="proyectosMi__imagen" src="img/Barberia.png" alt="Barberia">
-                    <p class="proyectosMi__tipo">Página de una Barberia con productos y contactos.</p>
-                    <div class="proyectos__bloque">
-                        <p class="proyectos_nombre">Github</p>
-                        <a href="https://github.com/SilvanoFabianPadilla/Barberia-Capitan" target="_blank">
-                            <img src="img/github.png" alt="Github" class="proyectos__enlace">
-                        </a>
-                        <p class="proyectos_nombre">Demo</p>
-                        <a href="https://silvanofabianpadilla.github.io/Barberia-Capitan/" target="_blank">
-                            <img src="img/enlazar.png" alt="Pagina" class="proyectos__enlace">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contacto -->
-        <a name="ContactoMi"></a>
-        <section class="contactoMi">
-            <h1 class="contactoMi__titulo">Contacto</h1>
-            <div class="contactoMi__bloque">
-                <div>
-                    <p class="contacto_contacto">
-                        ¿Quieres contactarme?
-                    </p>
-                    <p class="contacto_formulario">
-                        Complete el siguiente formulario y me pondré en contacto con usted lo más rápido posible
-                    </p>
-                </div>
-                <form action="https://formsubmit.co/fabian.sfpl@gmail.com" method="POST">
-                    <fieldset>
-                        <div class="input-container">
-                            <input name="name" id="name" class="input" type="text" placeholder="Nombre" required
-                                data-tipo="nombre" pattern="^(?!.*[0-9])(?!.*[!@#$%^&*_=+-?¿]).{5,50}$">
-                            <label class="input-label" for="name">Nombre</label>
-                            <span class="input-message-error">⚠ Este campo no es valido</span>
-                        </div>
-                        <div class="input-container">
-                            <input name="email" id="email" class="input" type="email" placeholder="Correo Electrónico"
-                                required data-tipo="email">
-                            <label class="input-label" for="email">Correo Electrónico</label>
-                            <span class="input-message-error">⚠ Este campo no es valido</span>
-                        </div>
-                        <div class="input-container">
-                            <input name="asunto" id="asunto" class="input" type="text" placeholder="Asunto" required
-                                data-tipo="asunto" pattern=".{5,50}$">
-                            <label class="input-label" for="asunto">Asunto</label>
-                            <span class="input-message-error">⚠ Este campo no es valido</span>
-                        </div>
-                        <div class="input-container">
-                            <input name="mensaje" id="mensaje" class="inputMensaje" type="text" placeholder="Mensaje"
-                                required data-tipo="mensaje" pattern=".{5,300}$">
-                            <label class="input-label" for="mensaje">Mensaje</label>
-                            <span class="input-message-error">⚠ Este campo no es valido</span>
-                        </div>
-                        <button class="button" type="submit" value="Enviar">Enviar</button>
-                    </fieldset>
-                </form>
-            </div>
-        </section>
-
-        <!-- copyright -->
-        <section class="copyright">
-            <footer>
-                <a href="https://github.com/SilvanoFabianPadilla" target="_blank"><img src="img/github.png" alt="Logo"
-                        class="social"></a>
-                <a href="https://www.instagram.com/fabiruchis2121/" target="_blank"><img src="img/instagram.png"
-                        alt="Logo" class="social"></a>
-                <a href="https://www.linkedin.com/in/silvano-fabi%C3%A1n-padilla-lozano-414747253/" target="_blank"><img
-                        src="img/linkedin.png" alt="Logo" class="social"></a>
-
-                <p class="copyright_Letra">&copy Copyright - Fabián Padilla - 2023</p>
-            </footer>
-        </section>
+          <p class="copyright_Letra">&copy Copyright - Fabián Padilla - 2023</p>
+        </footer>
+      </section>
     </div>
 
     <script src="js/app.js" type="module"></script>
-</body>
-
+  </body>
 </html>
